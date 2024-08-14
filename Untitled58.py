@@ -4,10 +4,7 @@
 # In[1]:
 
 
-import pandas as pd
-import matplotlib.pyplot as plt
 
-data = pd.read_csv("D:/ai ml/mtcars.csv")
 
 plt.hist(data['mpg'], bins=10, edgecolor='black')
 plt.title('Frequency Distribution of MPG')
